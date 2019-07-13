@@ -1,2 +1,142 @@
-/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
-the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+/*--------------------------------------Buttons and Title----------------------------------------*/
+.topButtons{
+    margin: 10px 10px 0px 0px;
+    color:white;
+    background-color: blue;
+    height: 40px;
+    font-size: 14px;
+    border-color: rgb(211, 198, 198);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+ }
+ .logo-title {
+    padding-left: 9px;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color:#112fb4;
+ }
+ #middleText{
+    color: black;
+    margin-top: 0px;
+    font-family: 'Marck Script', cursive;
+    font-size: 16px;
+ }
+ #header{
+    display: flex;
+    flex-direction: row;
+  }
+  #header > .logo-title{
+     flex: auto;
+  }
+ #header > .topButtons
+    { margin-right: 10px;
+       width: 6rem;
+ }
+ input.topButtons:hover {
+    color: #000000;
+    background: #CFB53B;
+ }
+ .postButtons{                                    
+    position: relative;
+    text-align: center;
+    margin-top: 12%;                                                                      
+    cursor: pointer;
+    }
+ .middleButtons {
+    font-weight: bold;
+    font-size: 16px;
+    background: #CFB53B;
+    color: #000000;
+    margin: 10px 10px 0px 0px;
+    border-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+   }
+  
+   input.middleButtons:hover {
+    color:#fff;
+    background: #3366cc;}
+
+    /*---------------------------------Modal-----------------------------*/
+    .modal{
+      display: none;
+      position: fixed; 
+      z-index: 1; 
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+      overflow: hidden; 
+      background-color: rgba(0,0,0,0.7); 
+      border: none;
+}
+
+.modal-content{
+   background-color: #fefefe;
+  margin: 5% auto; 
+  border: 1px solid #888;
+  padding: 20px;
+  width: 27%;
+  height: 60%;
+}
+.modal-content1{
+   background-color: #fefefe;
+   margin: 2% auto;
+   border: 1px solid #888;
+   padding:20px;
+   width: 27%;
+   height: 87%;
+}
+.close{
+   float: right;
+   color: black;
+   font-size: 35px;
+   font-weight: bold;
+}
+.close:hover{
+   color: red;
+}
+h1,label{
+   margin-top: 30px;
+   text-align: center;
+   font-family: 'Abel', sans-serif;
+   color: black;
+   font-weight: bold;
+}
+.sisubtn
+{  color: #fefefe;
+   width: 100%;
+   padding: 12px 0px 12px 0px;
+   background-color: rgb(76, 175, 109);
+   border: none;
+   margin:20px 0px 40px 0px;
+}
+.sisubtn:hover{
+background-color: rgb(70, 167, 102);
+}
+#Av{margin-top: 10px;
+   margin-bottom: 10px;
+   width: 98%;
+   padding: 15px 0px 15px 5px;
+   background-color: #f2f2f2;
+   border: none;
+}
+#Av:hover{
+   background-color:  #d9d9d9;
+}
+#suprom
+{
+   text-align: center;
+   font-weight: bold;
+   font-size: 20px;
+}
+.sisubtni{
+   color: #fefefe;
+   width: 100%;
+   padding: 12px 0px 12px 0px;
+   background-color: rgb(175, 104, 76);
+   border: none;
+   margin:0px 0px 40px 0px;
+    
+}

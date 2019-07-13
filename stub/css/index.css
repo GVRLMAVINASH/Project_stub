@@ -11,32 +11,4 @@ body{
 } 
 
 
-/*------------------------------------------------------------------------------*/
-#btn{
-    
-   background-color: blue;
-   color:white;
-   margin-left: 2px;
-   height: 25px;
-}
-.logo-title {
-   font-family: 'Satisfy', cursive;
-   font-size: 75px;
-   color: blue;
-}
-#middleText{
-   margin-top: 0px;
-   font-family: 'Marck Script', cursive;
-   font-size: 25px;
-}
-#header{
-   display: flex;
-   flex-direction: row;
- }
- #header > .logo-title{
-    flex: auto;
- }
-#header > .topButtons
-   { margin-right: 10px;
-      width: 5rem;
-}
+ 
