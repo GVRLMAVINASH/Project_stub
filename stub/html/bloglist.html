@@ -10,25 +10,61 @@
     </style>
 </head>
 <body>
-    <div id="main-container-div">
-        <div class="header">
-                                
-            <!-- Insert code for Sign Up, Sign In button here. 
-                 Add code for "ScriBBler" heading and the sub-heading -->
+   
+    <span id="header">
+        <a  class="logo-title">ScriBBler</a>
+        <input class="topButtons" id="btn" type="button" onclick="signin()" value="Sign In">
+        <input class="topButtons" id="btn"type="button" onclick="signup()"  value="Sign Up">
+</span> 
+<p class="logo-title" id="middleText">Explore, Imagine, Create</p>
+</div>
+<!-- Below code for Sign In modal -->
+<div class="modal" id="simodal" >
+<form class="modal-content" action="/action_page.php">
+    <span onclick="closec()" class="close">&times;</span>
+    <div class="container">
+    <h1>Welcome Back!</h1>
+    <hr>
+    <label>Username</label><br>
+    <input type="text" placeholder="Enter Username" id="Av"><br>
+    <label>Password</label><br>
+    <input type="password" placeholder="Enter Password" id="Av"><br>
+    <button type="submit" class="sisubtn">Sign In</button><br>
+    
+</div>
+<div id="suprom" class="suform" style="color: black"><b>Not a member?</b>
+    <span id="" class="signUp" onclick="signup()" style="color: blue"><b>Sign Up</b></span>
+</div>
+</form>
+</div>
 
-        </div>
+<!-- Below code for Sign Up modal -->
+<div>
+<div class="modal" id="sumodal" >
+    <form class="modal-content1" action="/action_page.php">
+        <span onclick="closec()" class="close" title="Close Modal">&times;</span>
+        <div class="container">
+        <h1>Get Started</h1>
+        <hr>
+        <label>Full Name</label><br>
+        <input type="text" placeholder="Enter Full Name" id="Av">
+        <label>Username</label><br>
+        <input type="text" placeholder="Enter Username" id="Av"><br>
+        <label>Password</label><br>
+        <input type="password" placeholder="Enter Password" id="Av"><br>
+        <label>Confirm Password</label><br>
+        <input type="password" placeholder="Confirm Password" id="Av">
+        <button type="submit" class="sisubtn">Sign In</button><br>
+        <button type="submit" class="sisubtni">clear</button><br>
+        
     </div>
-    <div>
+</form>
+</div>
 
-        <!-- Insert code for Sign In modal here -->
 
-    </div>
+</div>
 
-    <div>
 
-        <!-- Insert code for Sign Up modal here -->
-
-    </div>
 
     <div class="allPostsContainer">
     <div class="post">
