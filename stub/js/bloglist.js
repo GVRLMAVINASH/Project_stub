@@ -2,7 +2,11 @@ function fullPost()
 {
     window.location.href="./post.html";
 }
-DeleteP()
+function DeleteP()
 {
-    document.getElementById('prompt').style.display='block';
+    document.getElementById('Prompt1').style.display='block';
 }
+
+function onclickDeletep() {
+    document.getElementById('Prompt1').style.display='none';
+  }
