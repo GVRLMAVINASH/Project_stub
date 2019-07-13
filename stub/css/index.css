@@ -9,6 +9,30 @@ body{
    overflow:hidden;
    display: block;
 } 
-
-
- 
+.modal-content2{
+   background-color: #fefefe;
+   margin: 2% auto;
+   border: 1px solid #888;
+   padding:20px;
+   width: 60%;
+   height: 90%;
+}
+.crbtn
+{  
+   color: #fefefe;
+   width: 15%;
+   padding: 12px 0px 12px 0px;
+   background-color: rgb(76, 175, 109);
+   border: none;
+   margin:20px 0px 0px 40%;
+}
+#ac{margin-top: 10px;
+   margin-bottom: 10px;
+   width: 50%;
+   padding: 10px 0px 15px 5px;
+   background-color: #d9d9d9;
+   border: none;
+}
+#ac:hover{
+   background-color:  #d9d9d9;
+}
